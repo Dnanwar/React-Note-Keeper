@@ -1,0 +1,96 @@
+.head{
+    background-color: yellow;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 30px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+.head h1{
+    margin:0;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 50px;
+    font-weight: 100;
+}
+body{
+    margin: 0;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.note-container{
+    /* background-color: aqua; */
+    margin-top: 20px;
+    padding: 5px 15px 5px ;
+}
+.note h1{
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Nanum Pen Script', cursive;
+    border-bottom: solid thin rgba(0, 0, 0, 0.29);
+}
+.note p{
+    margin: 0;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: larger;
+}
+.note{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 15px;
+    padding: 10px 15px 25px 15px;
+    margin: 10px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.25);
+    width: 180px;
+}
+
+/* add button */
+.add{
+    position: absolute;
+    right: 13px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.299);
+    text-align: center;
+    border: none;
+    width: 30px;
+    padding: 7px;
+    border-radius: 100%;
+}
+.add h4{
+    margin: 0;
+    color: white;
+    font-weight: 100;
+}
+
+
+/* for the form */
+
+.form{
+    background-color: beige;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 10px 15px 25px 15px;
+    margin: 10px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.25);
+    width: 180px;
+    position: relative;
+}
+.title{
+    background-color: rgba(255, 0, 0, 0);
+    font-family: 'Nanum Pen Script', cursive;
+    display: inline-block;
+    font-size: 30px;
+    border: none;
+    border-bottom: solid thin rgba(0, 0, 0, 0.29);
+    outline-width: 0;
+    width: inherit;
+}
+.notetext{
+    background-color: rgba(255, 0, 0, 0);
+    display: inline-block;
+    border: none;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+    height: 40px;
+    width: inherit;
+    outline-width: 0;
+}
